@@ -54,6 +54,27 @@
 
                 <h1><a href="https://limbicarc.com/janelamattina/home/contactus" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=700,left=600,height=600,top=60'); return false;">Check Link</a><br />
                 </h1>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Anchor Object</h1>
+<h2>Create an a Element</h2>
+
+<button onclick="myFunction()">Try it</button>
+<p>Click "Try it" to create an a element.</p>
+
+<script>
+function myFunction() {
+  const x = document.createElement("A");
+  const t = document.createTextNode("Tutorials");
+  x.setAttribute("href", "https://www.w3schools.com");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
 `
     
     </script>
